@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    height: 650px;
+    background: url(./img/logo.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+
+}
+.main1{
+    width: 1200px;
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main1_1{
+    display: flex;
+    flex-direction: column;
+}
+.main1_1_1 img{
+    width: 5%;
+}
+.main1_1 h1{
+    margin-bottom: 30px;
+    color: azure;
+    font-size: 2.7em;
+    letter-spacing: 3px;
+}
+
+.main1_2{
+    margin-top: 30px;
+    text-align: center;
+    width: 180px;
+    background: rgb(228, 228, 27);
+    padding: 10px;
+}
+.main1_2 a{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+.main_1{
+    background-color: black;
+}
+
+.main2{
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: auto;
+    grid-column-gap: 20px;
+}
+
+.main2_1{
+    padding: 30px 10px;
+    color: white;
+}
+.main2_1 h1{
+    font-size: 2.7em;
+    letter-spacing: 5px;
+    margin-bottom: 60px;
+}
+.main2_1 p{
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.main2_2{
+    background: url(./img/img1.png);
+    background-position: center;
+    background-size: cover;
+}
+.main2_3{
+    background: url(./img/img2.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 150px 150px 150px 150px 150px 150px;
+    grid-gap: 20px;
+}
+.main3_1{
+    background: url(./img/img3.jpeg);
+    background-position: center;
+    background-size: cover;
+    grid-row-end: span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 30px;
+}
+.main3_1 h1{
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.main3_1 p{
+    line-height: 20px;
+}
+.main3_2{
+    background: url(./img/img4.jpeg);
+    background-position: center;
+    background-size: cover;
+    grid-row-end: span 2;
+}
+.main3_3{
+    background: url(./img/img5.jpeg);
+    background-position: center;
+    background-size: cover;
+    grid-row-end: span 3;
+}
+.main3_4{
+    background: url(./img/img7.jpeg);
+    background-position: center;
+    background-size: cover;
+    grid-row-end: span 2;
+}
+.main3_5{
+    background: url(./img/img6.jpeg);
+    background-position: center;
+    background-size: cover;
+    grid-row-end: span 3;
+
+}
+.main3_6{
+    background: url(./img/img8.jpeg);
+    background-position: center;
+    background-size: cover;
+    grid-row-end: span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: white;
+    padding: 30px;
+}
+.main3_6 h1{
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+.main3_6 p{
+    line-height: 20px;
+}
+.main3_7{
+    background: url(./img/img9.jpeg);
+    background-position: center;
+    background-size: cover;
+    grid-row-end: span 2;
+}
+
+
+
+.main4{
+    color: white;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.main4 h1{
+    margin-bottom: 30px;
+    letter-spacing: 4px;
+}
+.main4 p{
+    line-height: 20px;
+}
+
+.main5{
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 525px 525px;
+    grid-template-rows: 350px auto;
+    grid-gap: 20px;    
+}
+.main5_1{
+    background: url(./img/img10.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.main5_2{
+    background: url(./img/img11.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.main5_3, .main5_4{
+    padding:20px 30px;
+    line-height: 20px;
+    color: white;
+}
+
+.main6{
+    height: 400px;
+    background: url(./img/img12.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.main6_1_1, .main6_1_2{
+    width: 30%;
+    color: white;
+}
+.main6_1_1 h1{
+    letter-spacing: 3px;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+.main6_1_1 p{
+    line-height: 20px;
+}
+.main6_1_2 li{
+    line-height: 25px;
+}
+.main6_1{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
